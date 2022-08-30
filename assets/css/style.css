@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --list-editorial: #45ABEA;
+    --list-goals: #9C72E4;
+    --list-recruiting: #64C0A9;
+    --list-mobile: #F29E33;
+    --list-website: #D863A1;
+    --list-sales: #B0C926;
+    --bg: #F6F8F9;
+    --text: #444851;
+    --add-section: #C5CBD0;
+    --add-task: #47ADF1;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
