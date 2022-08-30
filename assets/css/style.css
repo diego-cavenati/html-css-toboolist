@@ -27,7 +27,6 @@ body {
 header {
     color: #000;
     background-color: #fff;
-    height: 70px;
 }
 
 #icon_logo {
@@ -47,6 +46,7 @@ header {
     margin-top: 40px;
     background-color: #fff;
     border-radius: 10px;
+    padding: 10px 0;
 }
 
 #add {
@@ -92,6 +92,9 @@ h2 {
     height: 20px;
     width: 20px;
     color: green;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
 }
 
 .uncorrect {
@@ -100,6 +103,9 @@ h2 {
     height: 20px;
     width: 20px;
     color: red;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
 }
 
 .category {
@@ -124,4 +130,12 @@ h2 {
 
 .goals {
     background-color: var(--list-goals);
+}
+
+.website {
+    background-color: var(--list-website);
+}
+
+.sales {
+    background-color: var(--list-sales);
 }
