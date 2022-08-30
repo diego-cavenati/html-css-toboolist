@@ -20,6 +20,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: var(--bg);
 }
 
 /* header with logo */
@@ -34,8 +35,41 @@ header {
 }
 
 #logo {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: 'Arial', sans-serif;
     display: inline-block;
     line-height: 70px;
+}
+
+/* main box */
+#main_box {
+    width: 785px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#add {
+    border-bottom: 1px solid #F6F8F9;
+    padding: 1rem 2rem;
+}
+
+button {
+    border-radius: 5px;
+    border-width: 0rem;
+    appearance: none;
+    padding: 8px;
+    margin: 5px;
+}
+
+#task {
+    background-color: var(--add-task);
+    color: #fff;
+}
+
+#section {
+    background-color: white;
+    color: var(--add-section);
+    border: 1px solid #C5CBD0;
 }
