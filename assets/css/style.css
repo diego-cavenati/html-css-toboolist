@@ -31,13 +31,15 @@ header {
 
 #icon_logo {
     margin: 1rem 0.75rem 1rem 2rem;
+    vertical-align: middle;
 }
 
 #logo {
     font-size: 2rem;
     font-family: 'Arial', sans-serif;
-    display: inline-block;
+    vertical-align: middle;
 }
+
 
 /* main box */
 #main_box {
@@ -139,3 +141,4 @@ h2 {
 .sales {
     background-color: var(--list-sales);
 }
+
